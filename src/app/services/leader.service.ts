@@ -15,7 +15,7 @@ export class LeaderService {
     return LEADERS.filter((dish) => (dish.id === id))[0];
   }
 
-  getFeaturedLeader(id: number): Leader {
+  getFeaturedLeader(): Leader {
     return LEADERS.filter((dish) => dish.featured)[0];
   }
 }
